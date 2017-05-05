@@ -44,7 +44,7 @@ public class SocketServer extends Thread {
       try {
          Thread t = new SocketServer(port);//create Custom Socket Class That I Wrote
          t.start();//Start Thread in Socket
-      }catch(IOException e)
+      }catch(IOException e){
          e.printStackTrace();
       }
    }
